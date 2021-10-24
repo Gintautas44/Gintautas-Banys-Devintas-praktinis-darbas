@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pirma anketa</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body bgcolor="#DCDCDC">
+      <h1 align="center">Pirma anketa</h1>
+      <br>
+      <br>
+      <table border="2" align="center">
+      <tr>
+          <td bgcolor="#F5F5F5">
+       <form action="anketa_1_.html"method="get"> 
+           <h2 align="center"> <i> Užpildykite anketą</i></h2>
+           <hr color="#20B2AA" size="2">
+         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b> Jūsų vardas:</b><input type="text" name="vardas"> &nbsp;&nbsp;&nbsp;<b>Pavardė:</b><input type="text" name="pavarde">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</input></p> 
+         <br>
+         <br>
+         <p>&nbsp;&nbsp;&nbsp; <b> Jūsų amžius:</b></p> 
+         <p>&nbsp;&nbsp;&nbsp;Iki 10m<input type="radio" name="amzius"></input>&nbsp;&nbsp;&nbsp;10-15m<input type="radio" name="amzius"></input></p> 
+         <p>&nbsp;&nbsp;&nbsp;16-20m<input type="radio" name="amzius"></input>&nbsp;&nbsp;&nbsp;21-30m<input type="radio" name="amzius"></input></p>
+         <p>&nbsp;&nbsp;&nbsp;31-40m<input type="radio" name="amzius"></input>&nbsp;&nbsp;&nbsp;41-50m<input type="radio" name="amzius"></input></p>
+         <p>&nbsp;&nbsp;&nbsp;51-60m<input type="radio" name="amzius"></input>&nbsp;&nbsp;&nbsp;Virš 60m<input type="radio" name="amzius"></input></p>
+         <br>
+         <br>
+         <p>&nbsp;&nbsp;&nbsp; <b> Jūsų adresas:</b></p>
+         <p>&nbsp;&nbsp;&nbsp; <b> Miestas/rajonas:</b>
+             <select name="miestas">
+                 <option>Vilnius</option>
+                 <option>Kaunas</option>
+                 <option>Klaipėda</option>
+                 <option>Šiauliai</option>
+                 <option>Panevėžys</option>
+                 <option>Alytus</option>
+                 <option>Marijampolė</option>
+                 <option>Utena</option>
+                 <option>Telšiai</option>
+                 <option>Tauragė</option>
+                 <option selected>Kitas</option>
+             </select>
+         </p> 
+         <br>
+         <br>
+         <p>&nbsp;&nbsp;&nbsp;<b>Adresas (gatvė,namo ir buto numeris / kaimo pavadinimas):</b></p>
+         &nbsp;&nbsp;&nbsp;<textarea name="adresas" cols="30" rows="3"></textarea>
+         <br>
+         <br>
+         <p>&nbsp;&nbsp;&nbsp; <b>Elektroninio pašto adresas:</b><input type="text" name="epastas" size="35"></p>
+         <p>&nbsp;&nbsp;&nbsp; <b>Jūsų pomėgiai:</b></p>
+         <p>&nbsp;&nbsp;&nbsp; <b> Kompiuterija</b><input type="checkbox" name="pomegiai"></input>&nbsp;&nbsp;&nbsp;<b>Literatūra</b><input type="checkbox" name="pomegiai"></input>
+           <b>Istorija</b><input type="checkbox" name="pomegiai"></input>&nbsp;&nbsp;&nbsp;<b>Menas</b><input type="checkbox" name="pomegiai"></input>
+            <b>Fizika</b><input type="checkbox" name="pomegiai"></input>&nbsp;&nbsp;&nbsp;<b>Kita</b><input type="checkbox" name="pomegiai"></input></p>
+        <br>
+        <hr color="#20B2AA" size="2">   
+        <br>
+        <p>&nbsp;&nbsp;&nbsp;<input type="reset" name="valyti" value="Išvalyti laukelius"></input>
+        <a href="rezultatu_langas.html" target="rezultatu langas"><input type="submit" name="issiusti" value="Siųsti"></a></p>  
+          
+       </form>
+    </td>
+      </tr>
+      </table>
+    </body>
+</html>
